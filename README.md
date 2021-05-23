@@ -1,5 +1,8 @@
 # listevery
 ![](https://shields.io/badge/pypi-0.1.51-blue) ![](https://shields.io/badge/made%20with-python-lightgray)
+```
+pip install listevery
+```
 
 __A small program which can list contents of directories and subdirectories, without a depth limit!__ 
 
