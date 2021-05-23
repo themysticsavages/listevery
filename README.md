@@ -1,5 +1,8 @@
 # listevery
 ![](https://shields.io/badge/pypi-0.1.5-blue) ![](https://shields.io/badge/made%20with-python-lightgray)
+```
+pip install listevery
+```
 
 __A small program which can list contents of directories and subdirectories, without a depth limit!__ Right now there are a few bugs so I do not recommend using this as a package for use in other projects. Due to my low knowledge of PyPi, you only get files from the installation folder. If you really want to use this, run it in the command line with: `python -m listevery [folder]`. Yes, you will get the files and folders where the package is installed. It is formatted similar to this:
 ```
