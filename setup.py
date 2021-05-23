@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
         name='listevery',
-        version='0.1.4',
+        version='0.1.5',
         url='https://github.com/themysticsavages/listevery',
         author='themysticsavages',
         description="A file lister on steroids",
