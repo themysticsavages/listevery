@@ -20,6 +20,8 @@ This script operates a little differently from running in shell.
 
 First of all, you need to specify two arguments, `[folder]`, and `[index]`. If you want a specific file run `python usage.py [folder] 0` for example (this may be broken because of random \r\ns in the output). If you want all the files so you can index them in your own way, run `python usage.py [folder] *`. You may get whitespaces and trailing, but you can probably find a way around that. ( ಠ ͜ʖಠ)
 
+Do you want a classic import experience? Modify the usage.py to remove any printing, then import it into any other file!
+
 ## New updates
 ```
   - Fixed up the Python file to run the module. Gives a less buggy and a usable result!
