@@ -1,5 +1,5 @@
 # listevery
-![](https://shields.io/badge/pypi-0.1.51-blue) ![](https://shields.io/badge/made%20with-python-lightgray)
+![](https://shields.io/badge/pypi-0.1.52-blue) ![](https://shields.io/badge/made%20with-python-lightgray)
 ```
 pip install listevery
 ```
@@ -27,4 +27,18 @@ Do you want a classic import experience? Modify the usage.py to remove any print
   - Fixed up the Python file to run the module. Gives a less buggy and a usable result!
 ```
 
+#### Compatibility
+```
+Certified compatibility:
+
+- Windows 7 or above
+- macOS
+- GNU/Linux
+
+May not work properly:
+
+- Replit
+- Github Codespaces
+- Heroku
+```
 <sub>Have issues? Post them <a href='https://github.com/themysticsavages/listevery/issues/new/choose'>here.</sub>
