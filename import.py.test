@@ -1,0 +1,6 @@
+"""
+Please note that you will need to include the listeveryu.py file with the projects
+you intend to use this function. You will also need the pip module 'listevery'.
+"""
+from listeveryu import listevery
+print(listevery('dist', '*'))
