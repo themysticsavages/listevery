@@ -1,7 +1,7 @@
 # listevery
 
-[![](https://shields.io/badge/pypi-0.1.6-blue)](https://pypi.org/project/listevery)
-[![](https://shields.io/badge/made%20with-python-lightgray)](https://python.org/downloads)
+[![](https://shields.io/badge/pypi-0.1.6-blue?style=flat&logo=pypi)](https://pypi.org/project/listevery)
+[![](https://shields.io/badge/made%20with-python-lightgray?style=flat&logo=python)](https://python.org/downloads)
 
 __A Python package which can list contents of directories and subdirectories, without a depth limit!__ 
 
