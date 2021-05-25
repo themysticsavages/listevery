@@ -5,6 +5,8 @@
 
 __A Python package which can list contents of directories and subdirectories, without a depth limit!__ 
 
+<sub>(yes, I know there's os.walk i don't care)</sub>
+
 ## Usage
 Running the program in the Python shell is a little strange. You can only get the files and directories of the pip package location. Even though it is a little pointless, run `python -m listevery [folder]` and you will get a structure similar to this.
 ```
@@ -14,10 +16,30 @@ Running the program in the Python shell is a little strange. You can only get th
 I'll explain. The first list (folder1) shows the folders in the directory, and the second list (file1.txt, file2.py) shows the files. Then it will look in the first directory of the first list and show any files or folders availible.
 It stops when a folder could not be found.
 
-If you want to run this in a Python script, check out the usage.py example script included in the downloads!
-This script operates a little differently from running in shell. 
+If you want to run this in a Python script, check out the import.py.test usage script in the downloads. This script is a guide to help you run the package by import.
 
-First of all, you need to specify two arguments, `[folder]`, and `[index]`. If you want a specific file run `python usage.py [folder] 0` for example (this may be broken because of random \r\ns in the output). If you want all the files so you can index them in your own way, run `python usage.py [folder] *`. You may get whitespaces and trailing, but you can probably find a way around that. (ಠ ಠ)
+Luckily, running listevery in a Python script is so much better. For starters, you can actually get the contents of directories besides the pip package, and the result is given in a lovely and usable list. Ha take that, tree command!
+Speaking of lists, listevery can index specific things for you.
+
+Here's a few different usages:
+
+#
+
+*Get all the files and directories:*
+```
+from listeveryu import listevery
+listevery('.', '*')
+```
+*Get specific items:*
+```
+from listevery import listevery
+listevery('.', int)
+```
+
+#
+
+Not too hard right?
+You may get whitespaces and trailing, but you can probably find a way around that. (ಠuಠ)
 
 ## New updates
 ```
