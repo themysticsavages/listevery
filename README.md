@@ -35,7 +35,7 @@ Does not work properly ⚠:
   - Replit
   - Heroku
 
-Will not work:
+Will not work ❌:
   - Online compilers (e.g: TutorialsPoint, OnlineGDB)
 ```
 
