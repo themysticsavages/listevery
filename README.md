@@ -28,12 +28,12 @@ Here's a few different usages:
 *Get all the files and directories:*
 ```
 from listeveryu import listevery
-listevery('.', '*')
+print(listevery('.', '*'))
 ```
 *Get specific items:*
 ```
 from listevery import listevery
-listevery('.', int)
+print(listevery('.', int))
 ```
 
 #
